@@ -2,8 +2,9 @@
 ### Utilities for OSX Cocoa, mainly stuff in IOS that is missing in OSX. ###
 
 ### DudNSButton ###
-  NSButton is very different from UIButton has few styling methods exposed.
-  This is a subclass of NSButton that allows easy setting of background color, border attributes, and text attributes.
+  Unlike UIButton, NSButton has few UI styling methods exposed.
+  DudNSButton is a subclass of NSButton that allows easy UI styling, such as setting background color, border attributes, and text attributes.
+  
   Usage:
 >       let buttonView = DudNSButton.init(frame: NSRect(x: 0, y: 0, width: 300.0, height: 150.0))
 >       buttonView.setBackgroundColor(color: NSColor.blue)
